@@ -1,5 +1,5 @@
 {
-  "name": "bluebird",
+  "name": "bluebird-custom",
   "description": "Full featured Promises/A+ implementation with exceptionally good performance",
   "version": "3.5.1",
   "keywords": [
