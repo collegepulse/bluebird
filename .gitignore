@@ -4,7 +4,7 @@ node_modules
 gh-pages
 test/browser/bundle.js
 test/browser/worker_bundle.js
-js/*
+js/tmp/*
 zalgo.js
 coverage/*
 .vscode

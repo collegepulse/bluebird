@@ -23,7 +23,8 @@
     "istanbul": "istanbul",
     "prepublish": "npm run generate-browser-core && npm run generate-browser-full",
     "generate-browser-full": "node tools/build.js --no-clean --no-debug --release --browser --minify",
-    "generate-browser-core": "node tools/build.js --features=core --no-debug --release --zalgo --browser --minify && mv js/browser/bluebird.js js/browser/bluebird.core.js && mv js/browser/bluebird.min.js js/browser/bluebird.core.min.js"
+    "generate-browser-core": "node tools/build.js --features=core --no-debug --release --zalgo --browser --minify && mv js/browser/bluebird.js js/browser/bluebird.core.js && mv js/browser/bluebird.min.js js/browser/bluebird.core.min.js",
+    "generate-core-with-regenerator": "node tools/build.js --features='core generators' --no-debug --release"
   },
   "homepage": "https://github.com/petkaantonov/bluebird",
   "repository": {
